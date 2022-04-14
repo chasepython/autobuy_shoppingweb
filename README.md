@@ -1,6 +1,6 @@
 # autobuy_shoppingweb
 
-透過selenium進行線上商城自動化購買，提供三種應對版本參考，可自行饌改。Cancel changes
+透過selenium進行線上商城自動化購買，提供三種應對版本參考，可自行饌改。
 
 
 使用步驟：     
