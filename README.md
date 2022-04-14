@@ -1,16 +1,16 @@
 # autobuy_shoppingweb
 
-透過selenium進行線上商城自動化購買，提供三種應對版本參考，可自行饌改。
+透過selenium進行線上商城自動化購買，提供三種應對版本參考，可自行饌改。Cancel changes
 
 
-使用步驟：
-1.先開啟getlogincookie，紀錄帳號登入後的cookie。
-2.提供兩種自動化版本：
-  a.WebDriverWait為主的運行方式
-  b.try為主的運行方式
-  ****建議以try方式進行自動化運行。try比wait速度更快且穩定！****
+使用步驟：     
+1.先開啟getlogincookie，紀錄帳號登入後的cookie。     
+2.提供兩種自動化版本：        
+　a.WebDriverWait為主的運行方式      
+　b.try為主的運行方式      
+              ##***建議以try方式進行自動化運行。try比wait速度更快且穩定！***##
   
-  其中 自動化步驟主要分為兩種模式：
+  其中，自動化步驟主要分為兩種模式：
             
             a.---購物車模式---
               事先將預購商品放置購物車
