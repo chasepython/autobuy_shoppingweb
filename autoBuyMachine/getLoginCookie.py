@@ -27,10 +27,10 @@ browser = webdriver.Chrome(executable_path=path,chrome_options=options)
 browser.maximize_window()
 
 
-browser.get("https://shopee.tw/")
+browser.get("https://")     # 想記錄cookies的網站
 time.sleep(2)
     
-pyautogui.moveTo(850,250)   #   "蝦皮"需要這個來跳脫初始廣告，可視情況刪除。
+pyautogui.moveTo(850,250)   #   "有些網站"需要這個來跳脫初始廣告，可視情況刪除。
 pyautogui.click()           
 
 username = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.NAME, "loginKey")))
