@@ -37,12 +37,12 @@ def newCookie():
     browser.delete_all_cookies()
     time.sleep(3)
 
-    with open('shopeeCookies.txt','r') as Newcookies:
+    with open('XXXXCookies.txt','r') as Newcookies:
         cookies = json.load(Newcookies)
     for cookie in cookies:
         browser.add_cookie(cookie)
 
-# 蝦皮登入
+# 帳號登入
 def login(userName,passWord):
     
     while True:
@@ -248,7 +248,7 @@ if __name__ == '__main__':
     path = "C:/ChromeDriver/ChromeDriver.exe"
     options = webSetting()
     browser = webdriver.Chrome(executable_path=path,chrome_options=options)   
-    browser.get("https://shopee.tw/")
+    browser.get("https://")
     
     # 等待頁面(可更改)
     time.sleep(0.1)
